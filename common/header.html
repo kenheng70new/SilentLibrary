@@ -1,0 +1,65 @@
+<!-- ✅ Responsive Navbar -->
+<nav class="navbar navbar-expand-md navbar-dark" style="background-color: #1f2d3d;">
+  <div class="container-fluid d-flex align-items-center">
+
+    <!-- 🔹 Left Section: Logo + Text -->
+    <div class="d-flex align-items-center me-3">
+      <img src="../assets/SL Logo.jpg" alt="Silent Library Logo" height="40" style="margin-right: 10px;" />
+      <h4 style="color: #d4ffb2; font-weight: bold; margin: 0;">Silent Library</h4>
+    </div>
+
+    <!-- 🔹 Center Section: Navbar links -->
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../pages/index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/books.html">Books</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/events.html">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/contact.html">Contact</a>
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown link
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../pages/index.html">Home</a></li>
+            <li><a class="dropdown-item" href="../pages/books.html">Books</a></li>
+            <li><a class="dropdown-item" href="../pages/events.html">Events</a></li>
+            <li><a class="dropdown-item" href="../pages/sitemap.html">Sitemap</a></li>
+            <li><a class="dropdown-item" href="../pages/contact.html">Contact</a></li>
+            <li><a class="dropdown-item" href="../pages/privacy.html">Privacy</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <!-- 🔹 Right Section: Search -->
+    <form class="d-flex ms-auto" role="search">
+      <input class="form-control form-control-sm" type="search" placeholder="Search" aria-label="Search" />
+    </form>
+
+    <!-- 🔹 Mobile Toggle Button -->
+    <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+  </div>
+</nav>
+
+  <main class="container" style="padding-top: 40px;">
+ <div class="card text-bg-dark">
+  <img src="../assets/banner1.jpg" class="card-img opacity-50" alt="Libaray Banner Pics">
+  <div class="card-img-overlay align-self-center">
+    <h1 class="card-title text-center" style="color: white; font-size: 6rem; align-items: center;"><b>Welcome to Silent Library</b></h1>
+    <p class="card-text text-center" style="color: yellow; font-size: 3rem;">Explore books, events, and more!</p>
+        <section style="display: flex; align-items: center; justify-content: center; gap: 20px; margin: 40px 0; flex-wrap: wrap;">
+      <h2 style="margin: 0;">Search Our Collections</h2>
+      <input type="text" placeholder="Search" style="padding: 8px; width: 250px;" />
+    </section>
+     </div>
+</div>
