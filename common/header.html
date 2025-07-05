@@ -52,14 +52,14 @@
 </nav>
 
   <main class="container" style="padding-top: 40px;">
-<div class="card text-bg-dark">
-  <img src="../assets/banner1.jpg" class="card-img opacity-50" alt="Library Banner Pic">
-  <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center text-center">
+<div class="card text-bg-dark border-0" style="height: 50vh; min-height: 300px; overflow: hidden;">
+  <img src="../assets/banner1.jpg" class="card-img object-fit-cover" style="height: 100%; width: 100%; object-fit: cover;" alt="Library Banner Pic">
+  <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center text-center p-3">
     <h1 class="card-title banner-title text-white">Welcome to Silent Library</h1>
-    <p class="card-text banner-subtitle">Explore books, events, and more!</p>
-    <section class="banner-search d-flex align-items-center justify-content-center gap-3 flex-wrap mt-4">
-      <h2>Search Our Collections</h2>
-      <input type="text" placeholder="Search" style="padding: 8px; width: 250px;" />
-    </section>
+    <p class="banner-subtitle">Explore books, events, and more!</p>
+    <div class="banner-search d-flex flex-wrap justify-content-center align-items-center gap-2 mt-3 w-100">
+      <h2 style="margin: 0; font-size: 1.25rem;">Search Our Collections</h2>
+      <input type="text" class="form-control" placeholder="Search" style="max-width: 250px;" />
+    </div>
   </div>
 </div>
