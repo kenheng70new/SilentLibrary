@@ -52,9 +52,15 @@
 </nav>
 
   <main class="container" style="padding-top: 40px;">
-<div class="card text-bg-dark border-0" style="height: 50vh; min-height: 300px; overflow: hidden;">
-  <img src="../assets/banner1.jpg" class="card-img object-fit-cover opacity-50" style="height: 100%; width: 100%; object-fit: cover;" alt="Library Banner Pic">
-  <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center text-center p-3">
+<div class="card text-bg-dark border-0 position-relative" style="height: 50vh; min-height: 300px; overflow: hidden;">
+  <!-- Background Image -->
+  <img src="../assets/banner1.jpg" class="card-img object-fit-cover" style="height: 100%; width: 100%; object-fit: cover;" alt="Library Banner Pic">
+  
+  <!-- Dark Overlay -->
+  <div style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; background-color: rgba(0,0,0,0.5); z-index: 1;"></div>
+
+  <!-- Text and Search -->
+  <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center text-center p-3" style="z-index: 2;">
     <h1 class="card-title banner-title text-white">Welcome to Silent Library</h1>
     <p class="banner-subtitle">Explore books, events, and more!</p>
     <div class="banner-search d-flex flex-wrap justify-content-center align-items-center gap-2 mt-3 w-100">
