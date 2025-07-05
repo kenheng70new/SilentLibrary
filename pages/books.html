@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Silent Library - Book List</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+  <!-- Bootstrap Bundle JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Your CSS and JS -->
+  <link rel="stylesheet" href="../css/style.css" />
+  <script src="../js/script.js" defer></script>
+</head>
+<body>
+  <div id="header"></div>
+<!-- Main Content -->
+  <main class="container" style="padding-top: 40px;">
+    <section style="text-align: center; margin: 20px 0;">
+      <h1 class="blinking"><b></b>Featured Books List</b></h1>
+    </section>
+
+    <!-- Book Grid in Rows -->
+    <section style="display: flex; flex-direction: column; gap: 40px; align-items: center;">
+      <div class="book-row" style="display: flex; gap: 30px; justify-content: center; flex-wrap: wrap;">
+        <div class="card" style="text-align: center;">
+          <button type="button" class="btn btn-success">Available</button>
+          <img src="../assets/book1.jpg" alt="Book Cover" style="width: 300px; height: 400px; object-fit: cover;" />
+          <div class="card-img-overlay" style="pointer-events: none;">
+          </div>
+          <div class="card-body" style="margin-top: 10px; align-items: center;">
+            <h5 class="card-title">Edge of Honor: A Thriller (24)</h5><br>
+            <a href="../pages/book1.html" style="padding: 10px 20px; background: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; text-decoration: none; display: inline-block;">Check Book</a>
+          </div>
+          
+        </div>
+          <div class="card" style="text-align: center;">
+          <button type="button" class="btn btn-warning">Reserved</button>
+          <img src="../assets/book2.jpg" alt="Book Cover" style="width: 300px; height: 400px; object-fit: cover;" />
+          <div class="card-img-overlay" style="pointer-events: none;">        
+          </div>
+          <div class="card-body"style="margin-top: 10px; align-items: center;">
+            <h5 class="card-title">EThe Idaho Four:<br> An American Tragedy</h5>
+            <a href="../pages/book2.html" style="padding: 10px 20px; background: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; text-decoration: none; display: inline-block;">Check Book</a>
+          </div>
+        </div>
+        <div class="card" style="text-align: center;">
+          <button type="button" class="btn btn-danger">On Loan</button>
+          <img src="../assets/book3.jpg" alt="Book Cover" style="width: 300px; height: 400px; object-fit: cover;" />
+          <div class="card-img-overlay" style="pointer-events: none;">
+          </div>
+          <div class="card-body" style="margin-top: 10px; align-items: center;">
+            <h5 class="card-title">Caught Up: Into<br>Darkness Trilogy</h5>
+            <a href="../pages/book3.html" style="padding: 10px 20px; background: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; text-decoration: none; display: inline-block;">Check Book</a>
+          </div>
+        </div>
+    
+
+      <div class="book-row" style="display: flex; gap: 30px; justify-content: center; flex-wrap: wrap;">
+        <div class="card" style="text-align: center;">
+          <button type="button" class="btn btn-warning">Reserved</button>
+          <img src="../assets/book4.jpg" alt="Book Cover" style="width: 300px; height: 400px; object-fit: cover;" />
+           <div class="card-img-overlay" style="pointer-events: none;">
+          </div>
+          <div class="card-body" style="margin-top: 10px; align-items: center;">
+            <h5 class="card-title">Behind the Badge</h5><br>
+            <a href="../pages/books.html" style="padding: 10px 20px; background: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; text-decoration: none; display: inline-block;">Check Book</a>
+          </div>
+        </div>
+        <div class="card" style="text-align: center;">
+          <button type="button" class="btn btn-danger">On Loan</button>
+          <img src="../assets/book5.jpg" alt="Book Cover" style="width: 300px; height: 400px; object-fit: cover;" />
+          <div class="card-img-overlay" style="pointer-events: none;">
+          </div>
+
+          <div class="card-body" style="margin-top: 10px; align-items: center;">
+            <h5 class="card-title">The Avatar</h5><br>
+            <a href="../pages/books.html" style="padding: 10px 20px; background: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; text-decoration: none; display: inline-block;">Check Book</a>
+          </div>
+        </div>
+        <div class="card" style="text-align: center;">
+          <button type="button" class="btn btn-success">Available</button>
+          <img src="../assets/book6.jpg" alt="Book Cover" style="width: 300px; height: 400px; object-fit: cover;" />
+           <div class="card-img-overlay"style="pointer-events: none;">          
+          </div>
+          <div class="card-body" style="margin-top: 10px; align-items: center;">
+            <h5 class="card-title">Don't Let Him In</h5><br>
+            <a href="../pages/books.html" style="padding: 10px 20px; background: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; text-decoration: none; display: inline-block;">Check Book</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- More Books Link -->
+    <div style="text-align: center; margin-top: 20px;">
+      <a class="blinking" href="#" style="color: #000; text-decoration: underline; font-weight: bold;">More New Books</a>
+    </div>
+  </main>
+  <div id="footer"></div>
+</body>
+</html>
